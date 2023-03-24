@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #wrapper {
+                width: 100%;
+                 display: flex; 
+                flex-direction: column;
+            }
+        #menu{
+            display:flex;
+            /* justify-content: space-around; */
+            
+        }
+        #left_menu{
+            display: flex;
+            justify-content: space-around;
+            width:40%;
+            margin-top:15px;
+            margin-left: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #right_menu{
+                display: flex;
+                width: 40%;
+                margin-left: 1000px;
+            } 
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="menu">
+            <div id="left_menu">
+                <img src="Image 1710.png" alt="">
+                <div style="color:aqua ;border-radius: 10px;" >Home</div>
+                <div>Promotions</div>
+                <div>Best-sellers</div>
+                <div>New releases</div>
+                <div>Support</div>
+            </div>
+
+            <div id="right_menu">
+                <input type="text" placeholder="Search..."/>
+            </div>
+        </div>   
+
+    </div>
+</body>
+</html>
