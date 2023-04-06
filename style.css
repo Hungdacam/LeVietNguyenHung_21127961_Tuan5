@@ -1,0 +1,188 @@
+
+        .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+        }
+
+        #wrapper {
+                width: 100%;
+                display: flex; 
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        #menu{
+            display:flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            width:1440px;
+            height:60px;
+        }
+        #left_menu{
+            display: flex;
+            justify-content: space-around;
+            width: 700px;
+            margin-top:15px;
+            margin-left: 30px;
+        }
+        #right_menu{
+                display: flex;
+                width: 487px;
+                margin-left: 450px;
+                
+            } 
+        #link{
+            display: flex;
+        }
+        #page_1{
+            margin-top: 50px;
+            width:1182px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #rating{
+            display:flex;
+            width: 200px;
+            height: 30px;
+            /* justify-content: space-around; */
+        }
+        #image_center{
+            width:1200 px;
+            height: 432px;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .image_left{
+            margin-right:5px;
+            height: 429px;
+            width: 585px;
+            
+        }
+        .image_right{
+            height: 430px;
+            width:580px;
+            margin-left: 5px;
+        }
+        #motasp{
+            width: 1185px;
+            height: 431px;
+            display:flex;
+            justify-content: space-around;
+            border-bottom: 2px solid lightgrey;
+            margin-top: 20px;
+        }
+        .motaleft{
+            width: 840px;
+            height:433px;
+        }
+        .motaright{
+            border:1px solid lightgray;
+            width:338px;
+            height: 386px;
+        }
+        .description{
+            width: 769px;
+            height:149px;
+        }
+        .thechon{
+            background-color: rgb(245, 240, 240);
+            width: 298px;
+            height: 33px;
+            margin-left: 15px;
+            border-radius:5px;
+            border:0px;
+            margin-bottom: 10px;
+        }
+        .button1{
+            width: 298px;
+            height: 50px;
+            border:0px;
+            background-color: rgb(78, 190, 78);
+            margin-left: 15px;
+            margin-bottom:10px;
+            border-radius:5px;
+        }
+        .button2{
+            display: flex;
+            width: 298px;
+            height: 50px;
+            border-color: rgb(78, 190, 78);;
+            margin-left: 15px;
+            border-radius:5px;
+            justify-content:center;
+        }
+
+        #icon{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            width: 374px;
+            height: 98px;
+        }
+        #review{
+            width: 1180px;
+            height: 100px;
+            display:flex;
+            border-bottom: 1px;
+            border-color: gainsboro;
+        }
+        .reviews_left{
+            display: flex; 
+            width: 280px; 
+            height: 40px; 
+            justify-content: space-around;
+        }
+        .reviews_right{
+            color: gainsboro;
+            width:136px;
+            height:22px;
+            margin-top: 10px;
+            margin-left:920px;
+        }
+        .comment{
+            width: 1117px;
+            height: 143px;
+            display: flex;
+        }
+        .comment_left{
+            width: 600px;
+            height: 318px;
+        }
+        .comment_right{
+            margin-left:20px;
+            width: 580px;
+            height:318px;
+        }
+        #bottom{
+            width: 1455px;
+            height: 563px;
+            border-top: 1px solid gainsboro;
+        }
+        .subscriber{
+            text-align: center;
+        }
+        .sub{
+            display: flex;
+        }
+        #endpage{
+            display: flex;
+        }
+        .endpage_left{
+            /* text-align: right; */
+            display: flex;
+            width: 50%;
+            height: 280px;
+        }
+        .endpage_right{
+            display: flex;
+            text-align: left;
+            width: 50%;
+        }
+        #line_end{
+            width: 1210px;
+            height: 55px;
+            display: flex;
+        }   

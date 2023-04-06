@@ -4,39 +4,251 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <style>
+        
+        .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+        }
 
-    <style>
         #wrapper {
                 width: 100%;
-                 display: flex; 
+                display: flex; 
                 flex-direction: column;
+                align-items: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
         #menu{
             display:flex;
-            /* justify-content: space-around; */
-            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            width:1440px;
+            height:60px;
         }
         #left_menu{
             display: flex;
             justify-content: space-around;
-            width:40%;
+            width: 700px;
             margin-top:15px;
-            margin-left: 25px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 30px;
         }
         #right_menu{
                 display: flex;
-                width: 40%;
-                margin-left: 1000px;
+                width: 487px;
+                margin-left: 450px;
+                
             } 
+        #link{
+            display: flex;
+        }
+        #page_1{
+            margin-top: 50px;
+            width:1182px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #rating{
+            display:flex;
+            width: 200px;
+            height: 30px;
+            /* justify-content: space-around; */
+        }
+        #image_center{
+            width:1200 px;
+            height: 432px;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .image_left{
+            margin-right:5px;
+            height: 429px;
+            width: 585px;
+            
+        }
+        .image_right{
+            height: 430px;
+            width:580px;
+            margin-left: 5px;
+        }
+        #motasp{
+            width: 1185px;
+            height: 431px;
+            display:flex;
+            justify-content: space-around;
+            border-bottom: 2px solid lightgrey;
+            margin-top: 20px;
+        }
+        .motaleft{
+            width: 840px;
+            height:433px;
+        }
+        .motaright{
+            border:1px solid lightgray;
+            width:338px;
+            height: 386px;
+        }
+        .description{
+            width: 769px;
+            height:149px;
+        }
+        .thechon{
+            background-color: rgb(245, 240, 240);
+            width: 298px;
+            height: 33px;
+            margin-left: 15px;
+            border-radius:5px;
+            border:0px;
+            margin-bottom: 10px;
+        }
+        .button1{
+            width: 298px;
+            height: 50px;
+            border:0px;
+            background-color: rgb(78, 190, 78);
+            margin-left: 15px;
+            margin-bottom:10px;
+            border-radius:5px;
+        }
+        .button2{
+            display: flex;
+            width: 298px;
+            height: 50px;
+            border-color: rgb(78, 190, 78);;
+            margin-left: 15px;
+            border-radius:5px;
+            justify-content:center;
+        }
+
+        #icon{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            width: 374px;
+            height: 98px;
+        }
+        #review{
+            width: 1180px;
+            height: 100px;
+            display:flex;
+            border-bottom: 1px;
+            border-color: gainsboro;
+        }
+        .reviews_left{
+            width: 280px; 
+            height: 40px; 
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .reviews_right{
+            color: gainsboro;
+            width:136px;
+            height:22px;
+            margin-top: 20px;
+            margin-left:920px;
+        }
+        .comment{
+            width: 1117px;
+            height: 300px;
+            display: flex;
+        }
+        .comment_left{
+            width: 600px;
+            height: 318px;
+        }
+        .comment_right{
+            margin-left:20px;
+            width: 580px;
+            height:318px;
+        }
+        #bottom{
+            width: 1455px;
+            height: 563px;
+            border-top: 1px solid gainsboro;
+        }
+        .subscriber{
+            text-align: center;
+            height: 548px;
+        }
+        .sub{
+            display: flex;
+        }
+        #endpage{
+            display: flex;
+        }
+        .endpage_left{
+            /* text-align: right; */
+            display: flex;
+            width: 50%;
+            height: 280px;
+        }
+        .endpage_right{
+            display: flex;
+            text-align: left;
+            width: 50%;
+        }
+        #line_end{
+            width: 1455px;
+            height: 55px;
+            display: flex;
+        }   
+        #product{
+            width: 1211px;
+            height: 566px;
+            border-top:1px solid gainsboro;
+        }
+        .product_title{
+            display: flex;
+            width: 1211px;
+            height: 49px;
+            margin-top: 5px;
+            margin-bottom: 35px;
+        }
+        .title_left{
+            margin-left: 15px;
+        }
+        .title_right{
+            color:gainsboro;
+            margin-left:850px;
+            margin-top: 25px;
+        }
+        .product_main{
+            justify-content: space-around;
+            margin-left: 15px;
+            margin-top: 60px;
+        }
+        #item{
+           display: flex;
+           justify-content: space-around;
+        }
+        .item_img{
+            width: 285px;
+            height: 244px;
+        }
+        .item_text{
+            width: 276px;
+            height: 115px;
+            margin-top:-25px;
+            border:1px solid #F9F9F9;
+            border-top: 0px ;
+        }
+        .item_box{
+            margin-left: 10px;
+            margin-top:10px;
+        }
     </style>
+
 </head>
 <body>
     <div id="wrapper">
+        <!-- menu -->
         <div id="menu">
             <div id="left_menu">
                 <img src="Image 1710.png" alt="">
-                <div style="color:aqua ;border-radius: 10px;" >Home</div>
+                <div style="color:aqua ;border-bottom: 5px solid aqua;" >Home</div>
                 <div>Promotions</div>
                 <div>Best-sellers</div>
                 <div>New releases</div>
@@ -44,9 +256,328 @@
             </div>
 
             <div id="right_menu">
-                <input type="text" placeholder="Search..."/>
+                <input type="text" placeholder="Search..." style="border: 1px solid gainsboro; height: 30px; width: 180px;"/>
+                <div  style="margin-top: 3px; margin-right: 20px; margin-left: 20px;">
+                <img src="Bell 1.png" alt="">
+                </div>
+                <div  style="margin-top: 3px; margin-right: 20px;">
+                <img src="Shopping cart simple 1.png" alt="">
+                </div>
+                <div  style="margin-top: 3px; margin-right: 20px;">
+                <img src="Avatar 758.png" alt="">
+                </div>
             </div>
         </div>   
+
+        <!-- duong dan  -->
+        <div id="page_1">
+            <div id="link">
+                <div style="color:rgb(177, 171, 171)"> Home / </div>
+                <div style="color:rgb(177, 171, 171)"> Category / </div>
+                <div> Product title</div>
+            </div>
+            <h1>Product title</h1> 
+            <!-- rating -->
+            <div id="rating"> 
+                <img src="Rating 317.png" alt="">
+                <div style="margin-right: 5px; margin-left: 5px;"> <b>4.20</b> </div>
+                <div style="color: rgb(177, 171, 171)"> (99 reviews) </div>
+                <div style=" margin-left: 850px; display: flex;">
+                    <i class="material-symbols-outlined">share</i> 
+                    <div style="margin-right: 15px;"> Share</div>
+                    <span class="material-symbols-outlined">favorite</span>
+                    <div style="margin-right: 30px;"> Save</div>
+                </div>
+            </div>
+            <!-- image -->
+            <div id="image_center">
+                <div class="image_left">
+                    <div> <img src="Image 1705.png" alt=""></div>
+                </div>
+                <div class="image_right">
+                    <div style="display: flex; margin-bottom: 3px;"> 
+                    <div style="margin-right:5px; "> <img src="Image 1708.png" alt=""> </div>
+                    <div> <img src="Image 1707.png" alt=""></div>
+                    </div>
+                    <div style="display: flex;"> 
+                        <div style="margin-right:5px; "> <img src="Image 1706.png" alt=""></div>
+                        <div> <img src="Image 1709.png" alt=""></div>
+                        </div>
+                </div>
+            </div>
+            <!-- product description -->
+            <div id="motasp">
+                <div class="motaleft">
+                <h1>Product description</h1>
+                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci aliquam dolorum nemo dolore suscipit accusamus saepe sit tenetur, quia reprehenderit? Quos consequatur ex, nobis aperiam consequuntur esse ullam sed?<br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto hic velit recusandae at id quod quasi deserunt odio vitae ex? Perferendis, laboriosam quis impedit ullam officia eius tempore fugiat assumenda porro, nostrum tempora totam possimus nobis? Quasi, nesciunt perspiciatis. Distinctio?</div>
+                <div id="icon">
+                    <div>
+                    <div style="display:flex;"> 
+                        <img src="Truck 1.png" alt="">
+                        <div>Free delivery</div>
+                    </div>
+                    <div style="display:flex;"> 
+                        <img src="Globe 1.png" alt="">
+                        <div>Made in USA</div>
+                    </div>
+                    <div style="display:flex;"> 
+                        <img src="Chat dots 1.png" alt="">
+                        <div>100% authentic</div>
+                    </div>
+                    </div>
+                    <div>
+                        <div style="display:flex; "> 
+                            <img src="Arrow bend up left 1.png" alt="">
+                            <div>7 days return</div>
+                        </div>
+                        <div style="display:flex;"> 
+                            <img src="Medal 1.png" alt="">
+                            <div>2 years guarantee</div>
+                        </div>
+                        <div style="display:flex;"> 
+                            <img src="Checks 1.png" alt="">
+                            <div>24/7 customer support</div>
+                        </div>
+                    
+                    </div>
+                </div>
+                </div>
+                <div class="motaright">
+                <div style="margin-left: 259px; color:aqua"><h1>$99</h1></div>
+                <select name="Color" class="thechon">
+                    <option value="">Color</option>
+                    <option value="red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Yellow">Yellow</option>
+                </select>
+                <select name="Size" class="thechon">
+                    <option value="">Size</option>
+                    <option value="XL">XL</option>
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                </select>
+                <select name="num" class="thechon">
+                    <option value="">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <div style="display:flex; margin-bottom:5px; ">
+                    <div style="margin-left:15px;">Total</div>
+                    <div style="margin-left: 230px;">$265</div>
+                </div>
+
+                <button class="button1">Buy now</button>
+                <button class="button2">
+                    <img src="Shopping cart simple 1.png" alt="" style="margin-top: 8px;">
+                    <div style="margin-top: 15px;margin-left: 5px; color:lightgreen;">Add to cart</div>
+                </button>
+                </div>
+            </div>
+            <!-- reviews -->
+            <div id="review">
+                <div class="reviews_left"> 
+                    <div style="font-size: 30px;"><b>Reviews</b></div>
+                    <img src="Rating 304.png" alt="">
+                    <div style="color: gainsboro; margin-top: 8px;">99 reviews</div>
+                    
+                </div>
+                <div class="reviews_right">
+                    <div>Show all reviews></div>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="comment_left">
+                    <div>
+                    <div style="display: flex;width: 300px; height: 43px;">
+                        <img src="Avatar 753.png" alt="" style="height:53px;">
+                        <div> Jay Rutherford</div>
+                        <div style="color:gainsboro">3d ago</div>
+                    </div>
+                    <img src="Rating 301.png" alt="" style="width: 100px; height: 23px; margin-left:60px; margin-top:-50px;"> 
+                    <div>Lorem ipsum quod deserunt enim similique, dolorum excepturi harum molestias autem doloribus ex modi dignissimos tempore earum aut fugiat ipsam non nesciunt quidem.</div>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <div style="display: flex;width: 300px; height: 43px;">
+                            <img src="Avatar 755.png" alt="" style="height:53px;">
+                            <div> Wei Arnold</div>
+                            <div style="color:gainsboro">3d ago</div>
+                        </div>
+                        <img src="Rating 317.png" alt="" style="width: 100px; height: 23px; margin-left:60px; margin-top:-50px;"> 
+                        <div>Lorem ipsum quod deserunt enim similique, dolorum excepturi harum molestias autem doloribus ex modi dignissimos tempore earum aut fugiat ipsam non nesciunt quidem.</div>
+                        </div>
+                </div>
+                <div class="comment_right">
+                    <div>
+                    <div style="display: flex;width: 300px; height: 43px;">
+                        <img src="Avatar 756.png" alt="" style="height:53px;">
+                        <div> Nico Chung</div>
+                        <div style="color:gainsboro">3d ago</div>
+                    </div>
+                    <img src="Rating 301.png" alt="" style="width: 100px; height: 23px; margin-left:60px; margin-top:-50px;"> 
+                    <div>Lorem ipsum quod deserunt enim similique, dolorum excepturi harum molestias autem doloribus ex modi dignissimos tempore earum aut fugiat ipsam non nesciunt quidem.</div>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <div style="display: flex;width: 300px; height: 43px;">
+                            <img src="Avatar 757.png" alt="" style="height:53px;">
+                            <div> Judith Mejia</div>
+                            <div style="color:gainsboro">3d ago</div>
+                        </div>
+                        <img src="Rating 299.png" alt="" style="width: 100px; height: 23px; margin-left:60px; margin-top:-50px;"> 
+                        <div>Lorem ipsum quod deserunt enim similique, dolorum excepturi harum molestias autem doloribus ex modi dignissimos tempore earum aut fugiat ipsam non nesciunt quidem.</div>
+                        </div>
+                </div>
+            </div>            
+        </div>
+        <!-- Related products -->
+        <div id="product">
+            <div class="product_title">
+                <div class="title_left">
+                    <div>
+                       <h1><b>Related Product</b></h1> 
+                    </div>
+                </div>
+                <div class="title_right">
+                    <div>
+                        See more >
+                    </div>    
+                </div>
+            </div>
+            <div class="product_main">
+                <div id="item">
+                    <div >
+                        <div class="item_img">
+                            <img src="Image 1704.png" alt="">
+                        </div>
+                        <div class="item_text">
+                            <div class="item_box">
+                                <div style="display:flex;">
+                                <h2>Product title</h2>
+                                <img src="Heart 23.png" alt="" style="margin-left:80px; height: 30px; margin-top: 22px;">
+                                </div>
+                                <div style="color:aqua; margin-top:-35px;"><h3>$233</h3></div>
+                                <div style="display: flex;height: 17px;width: 270px;margin-top: -13px;">
+                                    <img src="Rating 301.png" alt="">
+                                    <div style="color:gainsboro;margin-left: 83px; margin-top: 1px;font-size: 13px;">1000 items sold</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="item_img">
+                            <img src="Image 1703.png" alt="">
+                        </div>
+                        <div class="item_text">
+                            <div class="item_box">
+                                <div style="display:flex;">
+                                <h2>Product title</h2>
+                                <img src="Heart 23.png" alt="" style="margin-left:80px; height: 30px; margin-top: 22px;">
+                                </div>
+                                <div style="color:aqua; margin-top:-35px;"><h3>$199</h3></div>
+                                <div style="display: flex;height: 17px;width: 270px;margin-top: -13px;">
+                                    <img src="Rating 299.png" alt="">
+                                    <div style="color:gainsboro;margin-left: 83px; margin-top: 1px;font-size: 13px;">1000 items sold</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="item_img">
+                            <img src="Image 1711.png" alt="">
+                        </div>
+                        <div class="item_text">
+                            <div class="item_box">
+                                <div style="display:flex;">
+                                <h2>Product title</h2>
+                                <img src="Heart 23.png" alt="" style="margin-left:80px; height: 30px; margin-top: 22px;">
+                                </div>
+                                <div style="color:aqua; margin-top:-35px;"><h3>$299</h3></div>
+                                <div style="display: flex;height: 17px;width: 270px;margin-top: -13px;">
+                                    <img src="Rating 303.png" alt="">
+                                    <div style="color:gainsboro;margin-left: 83px; margin-top: 1px;font-size: 13px;">360 items sold</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="item_img">
+                            <img src="Image 1712.png" alt="">
+                        </div>
+                        <div class="item_text">
+                            <div class="item_box">
+                                <div style="display:flex;">
+                                <h2>Product title</h2>
+                                <img src="Heart 23.png" alt="" style="margin-left:80px; height: 30px; margin-top: 22px;">
+                                </div>
+                                <div style="color:aqua; margin-top:-35px;"><h3>$99</h3></div>
+                                <div style="display: flex;height: 17px;width: 270px;margin-top: -13px;">
+                                    <img src="Rating 303.png" alt="">
+                                    <div style="color:gainsboro;margin-left: 83px; margin-top: 1px;font-size: 13px;">234 items sold</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="bottom">
+                <div class="subscriber">
+                    <img src="Image 1710.png" alt="">
+                    <div><h2>Subscribe to out newsletter</h2></div>
+                    <div id="sub">
+                        <input type="mail" placeholder="Input your email.." style="width: 270px; height: 40px; border:0px;">
+                        <button style="width: 150px; height: 46px; margin-left:-5px; background-color: rgb(50, 161, 161); color:white; border:0px">Subscribe</button>
+                    </div>
+                    <div id="endpage">
+                        <div class="endpage_left">
+                            <div style="padding-left: 300px;">
+                            <div><H1>Product</H1></div>
+                            <div><h2>Features</h2></div>
+                            </div>
+                            <div style="padding-left: 100px;">
+                                <div><H1>Resources</H1></div>
+                                <div><h3>Blog</h3></div> 
+                            </div>
+                        </div>
+                        <div class="endpage_right">
+                            <div style="padding-left: 50px;">
+                                <div><H1>Company</H1></div>
+                                <div><h2>Features</h2></div>
+                                </div>
+                                <div style="padding-left: 100px;">
+                                    <div><H1>Plans & Pricing</H1></div>
+                                    <div><h3>Personal</h3></div> 
+                                </div>
+                        </div>
+                    </div>
+                 <div id="line_end">
+                    <select name="language_box" class="thechon" style="margin-left: 100px;">
+                        <option>English</option>
+                        <option>Vietnamese</option>
+                    </select>
+                    <div style="display: flex; margin-left: 220px; color:gainsboro; width: 434px;">
+                        <div style="display: flex; justify-content: space-around;">
+                            <div style="padding-left: 5px;">2022 Brand, Inc</div>
+                            <div style="padding-left: 5px;">Privacy</div>
+                            <div style="padding-left: 5px;">Terms </div>
+                            <div style="padding-left: 5px;">Sitemap </div>
+                            </div>
+                    </div>
+                    <div style="display: flex; margin-left: 50px; height:30px ">
+                        <img src="Twitter 9.png" alt="" style="margin-right: 5px;">
+                        <img src="Facebook 9.png" alt="" style="margin-right: 5px;">
+                        <img src="LinkedIn 8.png" alt="" style="margin-right: 5px;">
+                        <img src="YouTube 8.png" alt=""style="margin-right: 5px;">
+                    </div>
+
+                 </div>   
+                </div>
+
+
+
+        </div>
 
     </div>
 </body>
